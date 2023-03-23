@@ -6,8 +6,8 @@ for t in range(m):
     z = 0
     while(True):
         z += 1
+        swap = li[i - 1]
         li[i-1] = li[j-z]
-        swap = li[i-1]
         li[j-z] = swap
         if i >= j-z:
             break
